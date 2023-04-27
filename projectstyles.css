@@ -1,0 +1,589 @@
+/********w************
+    
+    Project 4
+    Name: Akshita	
+    Date: 25 April 2023
+    Description: Shoe Heaven Website Styling
+
+*********************/
+
+body{
+    width: 100%;
+    background-color: #c2c0bd;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#Head{
+    display: flex;
+    width: 100%;
+    margin: 10px;
+}
+
+    #Head #Box1{
+        flex: 1;
+        justify-content: flex-start;
+        margin: 0px 0px 10px 10px;
+        font-family: Papyrus;
+        font-size: large;
+    }
+
+    #Head #Box2{
+        flex: 1;
+        justify-content: center;
+    }
+
+        #Box2 nav{
+            justify-content: center;
+            align-items: center;
+            width: auto;
+            margin: auto;
+        }
+
+            #Box2 nav ul{
+                display: flex;
+                margin: 40px 10px 10px 40px;
+                padding: 0px;
+                width: auto;
+            }
+
+                #Box2 nav ul li{
+                    flex: content;
+                    list-style: none;
+                    width: auto;
+                    margin: 2px 40px 2px 40px;
+                    padding: 2px;
+                    font-size: 1.5em;
+                }
+
+                #Box2 nav ul li a{
+                    text-decoration: none;
+                    font-family: Verdana;
+                    font-weight: 600;
+                    color: #000;
+                }
+
+                #Box2 nav li a:hover{
+                    color: #6846db;
+                }
+
+    #Head #Box3{
+        flex: 1;
+        align-items: flex-end; 
+    }
+
+        #Box3 button{
+            float: right;
+            width: 100px;
+            margin: 40px 10px 10px 0px;
+            height: 30px;
+            border: 1px solid #000;
+            font-size: large;
+        }
+
+        #Box3 input{
+            float: right;
+            width: 280px;
+            margin: 40px 10px 10px 0px;
+            height: 25px;
+            border: 1px solid #000;
+        } 
+
+section #CompanyTagLine{
+    background: url("Background1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 700px;
+    margin: -40px 0px 0px 0px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px #000, -2px -2px 3px #000;
+}
+
+    section #CompanyTagLine h2{
+        color: #fff;
+        top: 400px;
+        left: 35px;
+        font-family: Papyrus;
+        font-size: 3.9em;
+        margin: 200px;
+    }
+
+section #CompanyDescription{
+    margin: -10px 0px 0px 0px;
+}
+
+    section #CompanyDescription h2{
+        font-family: Papyrus;
+        font-weight: 600;
+        font-size: 3.5em;
+        margin: 40px 50px 10px 50px;
+    }
+
+    section #CompanyDescription #One{
+        display: flex;
+    }
+
+        section #CompanyDescription #One p{
+            flex: 1;
+            margin: 40px 130px 10px 50px;
+            width: auto;
+            font-size: 1.7em;
+        }
+
+        section #CompanyDescription #One img{
+            flex: 1;
+            padding: 60px;
+            background: linear-gradient(to bottom, #64645f 18%, #afafaa 46%, #6e6e67 76%);
+        }
+
+    section #CompanyDescription #Two{
+        display: flex;
+    }
+        
+        section #CompanyDescription #Two img{
+            flex: 1;
+            padding: 60px;
+            background: linear-gradient(to bottom, #64645f 18%, #afafaa 46%, #6e6e67 76%);
+        }
+
+        section #CompanyDescription #Two p{
+            flex: 1;
+            margin: 40px 130px 10px 50px;
+            width: auto;
+            font-size: 1.7em;
+        }
+
+section #Promotion{
+    width: 90%;
+    height: 500px;
+    margin: 0px 0px 0px 120px;
+    background: #8b8585;
+    border-radius: 15px;
+    box-shadow: 2px 2px 3px #8a8282, -2px -2px 3px #8b7e7e;
+} 
+
+    section #Promotion h2{
+        margin: 50px 0px 50px 50px;
+        padding: 25px 0px 0px 0px;
+        font-size: 4.0em;
+        font-weight: 700;
+        font-family: Papyrus;
+    }
+
+    section #Promotion h3{
+        margin: 100px 0px 0px 100px;
+        font-size: 2.2em;
+        font-family: cursive;
+    }
+
+    #Promotion #Deal1{
+        float: right;
+        margin: -300px 50px 10px 50px;
+    }
+
+        #Promotion #Deal1 p{
+            font-size: 1.8em;
+            font-weight: 400;
+        }
+
+        #Promotion #Deal1 img{
+            margin: 0px 0px 0px 60px;
+        }
+
+    #Promotion #Deal2{
+        float: right;
+        margin: -300px 100px 10px 50px;
+    }
+
+        #Promotion #Deal2 p{
+            font-size: 1.8em;
+            font-weight: 400;
+        }
+
+        #Promotion #Deal2 img{
+            margin: 0px 0px 0px 60px;
+        }
+
+#pageEnd {
+    background: linear-gradient(to bottom, #8b8b89 23%, #c1c1bb 43%, #848480 75%);
+    height: 100px;;
+}
+
+    #pageEnd h1{
+        padding: 25px 0px 0px 20px;
+        font-family: Papyrus;
+        color: #000;
+    }
+
+    #pageEnd nav{
+        float: right;
+        margin: -90px 0px 0px 0px;
+    }
+
+        #pageEnd nav ul{
+            display: flex;
+            width: 100%;
+            margin: 20px;
+        }
+
+            #pageEnd nav ul li{
+                list-style: none;
+                width: 200px;
+                font-size: 1.4em;
+                font-weight: 500;
+            }
+
+            #pageEnd nav ul li a{
+                text-decoration: none;
+                color: #000;
+            }
+
+            #pageEnd nav ul li a:hover{
+                color: #6846db;
+            }
+
+#ContactInfo{
+    margin: -10px 0px 0px 0px;
+}
+
+    #ContactInfo h2{
+        font-family: Papyrus;
+        font-weight: 600;
+        font-size: 3.5em;
+        margin: 40px 50px 10px 50px;
+    }
+
+    #ContactInfo h3{
+        font-size: 1.9em;
+        font-weight: 400;
+        margin: 40px 0px 0px 50px;
+    }
+
+        #PersonalInfo{
+            width: auto;
+            margin: auto;
+        }
+
+        #PersonalInfo h4{
+            font-size: 1.6em;
+            margin: 20px 0px 0px 40px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+            #PersonalInfo ul{
+                margin: auto;
+                width: auto;
+                padding: 30px;
+                justify-content: center;
+                align-items: center;
+            }
+
+                #PersonalInfo ul li{
+                    list-style: none;
+                }
+
+                    #PersonalInfo ul li label{
+                        font-size: 1.6em;
+                        font-family: Arial, Helvetica, sans-serif;
+                    }
+
+                    #PersonalInfo ul li input{
+                        width: 250px;
+                        height: 30px;
+                        margin: 20px;
+                        font-size: 1.3em;
+                    }
+
+                    #PersonalInfo #Comment{
+                        display: flex;
+                        align-items:first baseline;
+                    }
+
+                    #PersonalInfo textarea{
+                        margin: 20px;
+                        font-size: 1.5em;
+                    }
+
+                    #PersonalInfo p{
+                        color: red;
+                        padding: 0px 0px 0px 20px;
+                        margin: 0px 0px 30px 100px;
+                    }
+
+                    #PersonalInfo #comment_error{
+                        padding: 0px 0px 0px 20px;
+                        margin: 0px 0px 30px 0px;
+                    }
+
+                    #PersonalInfo input:focus, textarea:focus{
+                        background-color: lightblue;
+                        color: #000;
+                    }
+
+#sidePhoto #photo1{
+    float: right;
+    margin: -600px 650px 50px 50px;
+    width: auto;
+    padding: 20px;
+    border: 1px solid #000;
+    box-shadow: 2px 2px 3px #8a8282, -2px -2px 3px #8b7e7e;
+}
+
+#sidePhoto #photo2{
+    float: right;
+    margin: -300px 250px 50px 50px;
+    width: auto;
+    padding: 20px;
+    border: 1px solid #000;
+    box-shadow: 2px 2px 3px #8a8282, -2px -2px 3px #8b7e7e;
+}
+
+#buttons{
+    display: flex;
+    margin: 0px 0px 0px 70px;
+}
+
+    #submit{
+        margin: 30px 10px 30px 60px;
+        width: 120px;
+        padding: 10px;
+        font-size: 1.4em;
+    }
+
+    #reset{
+        margin: 30px;
+        width: 120px;
+        padding: 10px;
+        font-size: 1.4em;
+    }
+
+#Products{
+    margin: -10px 0px 0px 0px;
+}
+
+    #Products h2{
+        font-family: Papyrus;
+        font-weight: 600;
+        font-size: 3.5em;
+        margin: 40px 50px 10px 50px;
+    }
+
+    #Products h3{
+        margin: 20px 0px 0px 800px;
+        font-size: 2.2em;
+        font-family: cursive;
+    }
+
+    #Products #display{
+        display: flex;
+        margin: 20px;
+    }
+
+        #Products #left{
+            border-right: 1px solid #000;
+        }
+
+        #Products #left ul{
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+            width: auto;
+            padding: 0px 10px 0px 0px;
+        }
+
+            #Products #left ul li{
+                list-style: none;
+                margin: 10px 10px 30px 0px;
+            }
+
+            #Products #product1{
+                display: flex;
+            }
+
+                #Products img{
+                    border: 1px solid #000;
+                    box-shadow: 2px 2px 3px #8a8282, -2px -2px 3px #8b7e7e;
+                }
+
+                #Products p{
+                    font-size: 1.6em;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    margin: 20px;
+                }
+
+                #Products p i{
+                    font-weight: 600;
+                }
+
+            #Products #product2{
+                display: flex;
+            }
+
+            #Products #product3{
+                display: flex;
+            }
+
+        #Products #right ul{
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+            width: auto;
+            padding: 0px 10px 0px 20px;
+        }
+
+            #Products #right ul li{
+                list-style: none;
+                margin: 10px 10px 30px 0px;
+            }
+
+            #Products #product4{
+                display: flex;
+            }
+
+            #Products #product5{
+                display: flex;
+            }
+
+            #Products #product6{
+                display: flex;
+            }
+
+@media (max-width: 767px) {
+    #Head #Box1 {
+        font-size: medium;
+    }
+  
+    #Box2 nav ul li {
+        margin: 2px 20px 2px 20px;
+        padding: 0px;
+        font-size: 1.2em;
+    }
+  
+    #Box3 button {
+        width: 80px;
+        margin: 90px 10px 10px 0px;
+        height: 25px;
+        font-size: medium;
+    }
+  
+    #Box3 input {
+        width: 100px;
+        margin: 90px 10px 10px 0px;
+        height: 20px;
+    }
+  
+    section #CompanyTagLine h2 {
+        font-size: 2.5em;
+        margin: 50px;
+
+    }
+  
+    section #CompanyDescription h2 {
+        font-size: 2.5em;
+        margin: 30px 40px 10px 40px;
+    }
+
+    section #CompanyDescription #One {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+		text-align: center;
+		justify-content: center;
+    }
+  
+    section #CompanyDescription #One p {
+        margin: 20px 20px 10px 20px;
+        font-size: 1.0em;
+    }
+  
+    section #CompanyDescription #Two p {
+        margin: 20px 20px 10px 20px;
+        font-size: 1.0em;
+    }
+  
+    section #Promotion {
+        margin: 0px 0px 0px 40px;
+        height: 400px;
+    }
+  
+    section #Promotion h2 {
+        margin: 30px 0px 30px 20px;
+        padding: 10px 0px 0px 0px;
+        font-size: 3.0em;
+    }
+  
+    section #Promotion h3 {
+        margin: 70px 0px 0px 70px;
+        font-size: 1.5em;
+    }
+  
+    #Promotion #Deal1 {
+      margin: -200px 30px 10px 30px;
+    }
+  
+    #Promotion #Deal1 p {
+      font-size: 1.5em;
+      margin: 10px 20px 10px 20px;
+    }
+
+    #Products #display{
+        display: flex;
+        margin: 20px;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+    #Head #Box1 {
+      font-size: large;
+    }
+  
+    #Box2 nav ul li {
+      font-size: 1.4em;
+    }
+  
+    #Box3 button {
+      width: 90px;
+      height: 27px;
+      font-size: large;
+    }
+  
+    #Box3 input {
+      width: 250px;
+      height: 22px;
+    }
+  
+    section #CompanyTagLine h2 {
+      font-size: 3.0em;
+      margin: 180px;
+    }
+  
+    section #CompanyDescription h2 {
+      font-size: 3.0em;
+      margin: 30px 50px 10px 50px;
+    }
+  
+    section #CompanyDescription #One p {
+      margin: 20px 100px 10px 50px;
+      font-size: 1.5em;
+    }
+  
+    section #CompanyDescription #Two p {
+      margin: 20px 100px 10px 50px;
+      font-size: 1.5em;
+    }
+  
+    section #Promotion {
+      margin: 0px 0px 0px 100px;
+      height: 450px;
+    }
+  
+    section #Promotion h2 {
+      margin: 30px 0px 30px;
+    }
+}
